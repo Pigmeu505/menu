@@ -1,0 +1,96 @@
+body {
+    background-image: url(imagens/fruit-3111745_1920.jpg);
+}
+.total{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+.card {
+    background-color: #ffffff90;
+    padding: 30px;
+    border-radius: 4%;
+    box-shadow: 3px 3px 1px 0px #00000070
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(90, 28, 126);
+}
+.ues input {
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 1px solid rgb(90, 28, 126);
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+}
+.ues {
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.ues input:focus {
+    border-bottom: 2px solid rgb(90, 28, 126);
+}
+.ues label {
+    color: rgb(90, 28, 126);
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+}
+.ues input:focus + label {
+    font-size: 13px;
+    margin-top: 0;
+    color: solid rgb(90, 28, 126);
+}
+button {
+    background-color: transparent;
+    border-color: rgb(90, 28, 126) ;
+    color: rgb(90, 28, 126);
+    padding: 7px;
+    font-weight: bold;
+    font-size: 12pt;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+    background-color:rgb(90, 28, 126) ;
+    color: aliceblue;
+    transition: all .5s ease-out;
+
+}
+.oi {
+    display: flex;
+    justify-content: center;
+}
+hr{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 60%;
+}
+p{
+    color: rgb(90, 28, 126) ;
+    font-size: 13pt;
+    text-align: center;
+}
+a {
+    color: rgb(90, 28, 126);
+    font-weight: bold;
+    text-decoration: none ;
+    transition: all .5s ease-out;
+}
+a:hover {
+    color:rgb(90, 28, 126) ; 
+}
